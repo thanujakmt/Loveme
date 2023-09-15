@@ -1,0 +1,49 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+h1{
+    margin-top: 180px;
+    margin-bottom: 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+small{
+    font-size: 1.5em;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.loveme{
+    width: 35vmax;
+    height: 70vh;
+    border-radius: 35px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-image: url(images/pexels-pixabay-70850.jpg);
+    cursor: pointer;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    margin: auto;
+    position: relative;
+    .fa-heart{
+        color: red;
+        position: absolute;
+        animation: grow 0.6s linear;
+        transform: translate(-50%,-50%) scale(0);
+    }
+}
+
+@keyframes grow{
+    to{
+        transform: translate(-50%,-50%) scale(15);
+        opacity: 0.2;
+    }
+}
