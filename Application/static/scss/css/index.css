@@ -37,6 +37,10 @@ small {
   margin: auto;
   position: relative;
 }
+.loveme img {
+  height: 100%;
+  width: 100%;
+}
 .loveme .fa-heart {
   color: red;
   position: absolute;
@@ -49,4 +53,4 @@ small {
     transform: translate(-50%, -50%) scale(15);
     opacity: 0.2;
   }
-}/*# sourceMappingURL=index.css.map */
+}

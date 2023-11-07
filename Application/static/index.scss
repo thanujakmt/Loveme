@@ -33,6 +33,10 @@ small{
     background-repeat: no-repeat;
     margin: auto;
     position: relative;
+    img{
+        height: 100%;
+        width: 100%;
+    }
     .fa-heart{
         color: red;
         position: absolute;
